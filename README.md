@@ -55,6 +55,21 @@ Compares current-period performance with the corresponding period from the previ
 - City, brand, model, and payment-method analysis
 - Interactive visual reporting
 
+  ## Dataset
+
+The dashboard uses a mobile sales dataset containing transaction-level sales information.
+
+The raw dataset used for the analysis is available in the `data/raw/` folder.
+
+## Project Structure
+
+- `data/raw/` – Raw mobile sales dataset
+- `Mobile Sales dashboard.pbix` – Power BI report
+- `Dashboard.png` – Main sales dashboard
+- `mtd-report.png` – Month-to-date analysis
+- `same-period-last-year.png` – Same Period Last Year analysis
+- `README.md` – Project documentation
+
 ## Technical Implementation
 
 - Data transformation using **Power Query**
